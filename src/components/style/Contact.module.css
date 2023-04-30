@@ -1,0 +1,27 @@
+.bgImg{
+    background-image: url('../../img/contact.png');
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg{
+    background-color: rgba(67, 68, 89, 1);
+}
+.h1{
+    font-size: 4em;
+}
+
+.p{
+    font-size: 1.5em;
+    text-align: center;
+    font-style: italic;
+}
+@media screen and (max-width:700px) {
+    .bgImg{
+        background-image: url('../../img/contact.png');
+        min-height: 500px;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 50px;
+    }
+}

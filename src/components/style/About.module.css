@@ -1,0 +1,32 @@
+.body{
+    background-image: url('../../img/about.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    place-content: center;
+    min-height: 932px;
+    text-align: center;
+    position: relative;
+    isolation: isolate;
+}
+.body::after{
+    content: "";
+    position: absolute;
+    background: black;
+    inset: 0;
+    opacity: 47%;
+    z-index: -1;
+}
+.h1{
+    font-size: 7em;
+    font-weight: 900;
+}
+.p{
+    font-size: 2em;
+}
+@media screen and (max-width:900px) {
+    .body{
+        background-size: cover;
+    }
+}

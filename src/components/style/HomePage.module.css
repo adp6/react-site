@@ -1,0 +1,13 @@
+.h1{
+    font-size: 3em;
+
+}
+.p{
+    font-size: 2em;
+
+}
+.body{
+    /* color: aqua; */
+    overflow: hidden;
+    margin: 0;
+}

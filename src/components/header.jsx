@@ -44,9 +44,6 @@ function Header(){
                                     <NavLink to='/' className='Link'>Home</NavLink>
                                 </div>
                                 <div>
-                                    <NavLink to='/posts' className='Link'>Posts</NavLink>
-                                </div>
-                                <div>
                                     <NavLink to='/api' className='Link'>Rest Api Posts</NavLink>
                                 </div>
                                 <div>

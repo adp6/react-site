@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-site/static/css/main.1178be85.css",
-    "main.js": "/react-site/static/js/main.b21ec35b.js",
+    "main.css": "/react-site/static/css/main.56056abb.css",
+    "main.js": "/react-site/static/js/main.9d3f8dfd.js",
     "static/js/787.7ec122fa.chunk.js": "/react-site/static/js/787.7ec122fa.chunk.js",
     "static/media/homeImg.png": "/react-site/static/media/homeImg.636388a127df0aa4efb9.png",
     "static/media/about.png": "/react-site/static/media/about.7e2cb2a8dc9ba6d7a337.png",
@@ -14,12 +14,12 @@
     "static/media/Back.png": "/react-site/static/media/Back.2943dd2a44a9ce0f91f2.png",
     "static/media/logo.png": "/react-site/static/media/logo.f93d12f07fc8aaabb4a1.png",
     "index.html": "/react-site/index.html",
-    "main.1178be85.css.map": "/react-site/static/css/main.1178be85.css.map",
-    "main.b21ec35b.js.map": "/react-site/static/js/main.b21ec35b.js.map",
+    "main.56056abb.css.map": "/react-site/static/css/main.56056abb.css.map",
+    "main.9d3f8dfd.js.map": "/react-site/static/js/main.9d3f8dfd.js.map",
     "787.7ec122fa.chunk.js.map": "/react-site/static/js/787.7ec122fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1178be85.css",
-    "static/js/main.b21ec35b.js"
+    "static/css/main.56056abb.css",
+    "static/js/main.9d3f8dfd.js"
   ]
 }

@@ -1,9 +1,9 @@
-import PageHeader from "./components/PageHeader"
-import PageHome from "./components/PageHome"
-import Footer from './components/Footer'
-import PageCourses from "./components/PageCourses"
-import About from "./components/About"
-import Contact from "./components/Contact"
+import PageHeader from "../components/PageHeader"
+import PageHome from "../components/PageHome"
+import Footer from '../components/Footer'
+import PageCourses from "../components/PageCourses"
+import About from "../components/About"
+import Contact from "../components/Contact"
 
 function Page(){
     return(

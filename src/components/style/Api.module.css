@@ -1,0 +1,16 @@
+.button{
+    padding: 10px 15px;
+    background-color: #ffc107;
+    color: black;
+    border: none;
+    font-weight: 600;
+    margin: 30px 2px;
+}
+.button:hover{
+    background-color: rgb(13,110,253);
+    color: white;
+    transition: .4s;
+}
+.div{
+    text-align: center;
+}

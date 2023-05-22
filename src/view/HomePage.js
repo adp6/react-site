@@ -1,8 +1,8 @@
-import Header from "./components/header";
-import Footer from './components/Footer';
-import reactLogo from './img/logo192.png'
-import styles from './components/style/HomePage.module.css'
-import MovingBg from "./components/MovingBg";
+import Header from "../components/header";
+import Footer from '../components/Footer';
+import reactLogo from '../img/logo192.png'
+import styles from '../components/style/HomePage.module.css'
+import MovingBg from "../components/MovingBg";
 
 function HomePage(){
     const pClass = `word-break mt-4 ${styles.p}`

@@ -1,12 +1,15 @@
 import Post from "./Post"
 import Header from "./header"
-import { useState, useMemo } from "react"
+import { useState, useMemo, useEffect } from "react"
 import Form from "./Form"
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 function PostList({data,create}){
     const [Posts, setPosts] = useState(data)
-
+    
+    useEffect(()=>{
+        setPosts(data)
+    },[data])
 
     const [SortMethod, changeSort] = useState('title')
 
@@ -18,7 +21,6 @@ function PostList({data,create}){
         setPosts(Posts.filter((p)=>p.id!==post.id))
     }
 
-    console.log(data,create)
     const sortedPosts = useMemo(()=>{
         if(SortMethod){
            return [...Posts].sort((a,b)=>a[SortMethod].localeCompare(b[SortMethod]))
@@ -60,8 +62,7 @@ function PostList({data,create}){
                                 >
                                    <Post remove={deletePost} post={v}/>
                                 </CSSTransition>
-                            )}    
-                             
+                            )}
                     </TransitionGroup>
                 </div>
             }

@@ -30,7 +30,6 @@ function Header(){
                     <div className="col-11">
                         <div className='justify-content-around desktop'>
                             <NavLink to='/' className='Link'>Home</NavLink>
-                            <NavLink to='/posts' className='Link'>Posts</NavLink>
                             <NavLink to='/api' className='Link'>Rest Api Posts</NavLink>
                             <NavLink to='/page' className='Link'>Commertial Page</NavLink>
                         </div>
